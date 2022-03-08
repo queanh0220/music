@@ -137,3 +137,79 @@ footer a {
     color: #4645a8;
     text-decoration: none;
 }
+
+
+/* tablet viewport */
+
+@media screen and (min-width: 550px), print {
+    
+    .tab-desk {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    span.tab-desk {
+        display: inline;
+    }
+
+    nav li {
+        border-top: none;
+        display: inline-block;
+        font-size: 1.5em;
+        border-right: 1px solid #e5e9fc;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        padding: 0.25em 0.5em;
+    }
+
+    .map {
+        width: 500px;
+        height: 450px;
+    }
+
+}
+
+@media screen and (min-width: 769px), print {
+    header {
+        padding: 2%;
+    }
+
+    nav li a {
+        padding: 0.5em 1.5em;
+    }
+
+    nav li a:hover {
+        color: #373684;
+        background-color: #e5e9fc;
+    }
+
+    #info ul {
+       margin: 0;
+        margin-left: 5%;
+    }
+
+    main h3 {
+        font-size: 1.5em;
+    }
+
+    #piano, #guitar, #violin {
+        width: 29%;
+        float: left;
+        margin: 0 2%;
+    }
+}
+
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+}
