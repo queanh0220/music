@@ -67,6 +67,31 @@ img {
     display: block;
 }
 
+
+/* boostrap */
+.hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),
+   rgba(255, 255, 255, 0.7)),url(../img/music-notes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.welcome {
+    margin-top: 10%;
+}
+
+.bg-dark-purple {
+    background-color: #373684;
+}
+
+.text-dark-purple {
+    color: #373684;
+}
+
+.text-white img {
+    width: 40px;
+}
+
 /* main */
 
 main {
@@ -273,19 +298,17 @@ footer a {
     }
 
     .copyright {
-        float: left;
         width: 65%;
     }
 
     .social {
-        float: right;
-        width: 25%;
+        width: 35%;
     }
 
-    .grid {
-        display: grid;
-        grid-template-columns: 2;
-        grid-gap: 20px;
+    footer, .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5%;
     }
 
     aside {
